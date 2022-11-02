@@ -208,7 +208,7 @@ public class PertambahDuaangka extends javax.swing.JFrame {
     }//GEN-LAST:event_hapusBtnActionPerformed
 
     private void tambahBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tambahBtnActionPerformed
-        if(angkaPertamaTF.getText().equals("") || angkaKeduaTF.getText().equals(""))
+        if(angkaPertamaTF.getText().equals("") || angkaKeduaTF.getText().equals("")){
         JOptionPane.showMessageDialog(null, "Salah Satu Input tidak boleh kosong");
     }else{
     int pertama = Integer.valueOf (angkaPertamaTF.getText());  
